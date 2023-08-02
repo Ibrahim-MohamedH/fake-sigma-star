@@ -578,11 +578,17 @@ body {
 
 /* ==== Media 950px ==== */
 @media (max-width: 950px) {
+  .header {
+    width: 90%;
+  }
   .header .logo {
-    width: 80%;
+    width: 50%;
+    text-align: right;
+    padding-right: 20px;
   }
   .header .menu {
     width: 15%;
+    text-align: center;
     display: block;
   }
   .header .nav {
@@ -659,6 +665,9 @@ body {
   }
   .container .top-content .main-text h1 {
     padding-top: 0px;
+  }
+  .cards-p4 .contact-minicards .contact-form {
+    padding: 40px 20px;
   }
 }
 
